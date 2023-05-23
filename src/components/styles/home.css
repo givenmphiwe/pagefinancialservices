@@ -135,6 +135,26 @@ button {
   cursor: pointer;
 }
 
+/*Who we are section*/
+.container-1 {
+  text-align: center;
+}
+.container-1 h3 {
+  text-align: center;
+  margin-top: 10%;
+  font: normal normal 800 40px/38px Proxima Nova;
+  letter-spacing: 1.6px;
+  color: black;
+  text-transform: uppercase;
+  opacity: 0.87;
+}
+.container-1 p {
+  margin-top: 20px;
+  margin-left: 30%;
+  width: 730px;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .Landing-img {
     margin-top: 0%;
@@ -156,5 +176,11 @@ button {
   }
   .btn-in-touch {
     top: 690px;
+  }
+  .container-1 p {
+    margin-top: 20px;
+    margin-left: 30%;
+    width: 230px;
+    text-align: center;
   }
 }
