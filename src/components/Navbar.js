@@ -21,10 +21,10 @@ function Navbar() {
       <FaReact size={40} />
       {/* Sets the navRef as a reference to the nav element */}
       <nav ref={navRef}>
-        <a href="/#">Home</a>
-        <a href="/#">Blog</a>
-        <a href="/#">About</a>
-        <a href="/#">Contact</a>
+        <a href="/#">HOME</a>
+        <a href="/#">ABOUT US</a>
+        <a href="/#">PRODUCTS & SOLUTIONS</a>
+        <a href="/#">CONTACT US</a>
         {/* Renders a button with the class of nav-btn nav-close-btn and an FaTimes icon inside */}
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
