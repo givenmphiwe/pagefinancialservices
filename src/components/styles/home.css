@@ -154,6 +154,33 @@ button {
   width: 730px;
   text-align: center;
 }
+.container-1 img {
+  margin-top: 60px;
+  height: 650px;
+  width: 860px;
+  margin-bottom: 30px;
+}
+
+.container-consult {
+  height: 150px;
+  background-color: #4b6e83cc;
+}
+.container-consult button {
+  margin-top: 55px;
+  margin-left: 45%;
+  color: #fff;
+  background: #21a4d84d 0% 0% no-repeat padding-box;
+  font: normal normal medium 18px/21px Poppins;
+  width: 250px;
+  height: 68px;
+  opacity: 1;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 8px 10px;
+  border: 2px solid #00ffc8cc;
+  box-shadow: none;
+  position: relative;
+}
 
 @media (max-width: 768px) {
   .Landing-img {
@@ -183,4 +210,13 @@ button {
     width: 230px;
     text-align: center;
   }
+  .container-1 img {
+    margin-top: 60px;
+    height: 350px;
+    width: 100%;
+  }
+  .container-consult button {
+    margin-top: 55px;
+    margin-left: 25%;
+}
 }

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./styles/home.css";
 import LandingImg from "../assets/Landing-Img.jpg";
+import Services from "../assets/Services.jpg"
 import Navbar from "./Navbar";
 
 export const Home = () => {
@@ -32,6 +33,11 @@ export const Home = () => {
            fewfikrewnmf wefei ewfiewufh fewfhie fjewfbueifiwfvewoc edjbcewiu efubuewfge
           ewfrrr
         </p>
+        <img src={Services} alt="PFS.png"/>
+      </div>
+
+      <div className="container-consult">
+        <button>Request consultation</button>
       </div>
     </>
   );
