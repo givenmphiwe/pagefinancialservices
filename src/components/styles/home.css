@@ -93,6 +93,7 @@ button {
 .top-left {
   position: absolute;
   top: 357px;
+  cursor: default;
   left: 13px;
   font: normal normal 800 80px/75px Proxima Nova;
   color: white;
@@ -102,6 +103,7 @@ button {
   position: absolute;
   top: 437px;
   left: 13px;
+  cursor: default;
   font: normal normal 800 40px/38px Proxima Nova;
   letter-spacing: 1.6px;
   color: #ffffff;
@@ -118,6 +120,7 @@ button {
   letter-spacing: 0.32px;
   color: #ffffff;
   opacity: 0.6;
+  cursor: default;
 }
 .btn-in-touch {
   position: absolute;
@@ -125,7 +128,7 @@ button {
   left: 19%;
   border: 2px solid;
   background: #21a4d84d 0% 0% no-repeat padding-box;
-  border: 2px solid #00ffc8cc;
+  border: 2px solid #32bff7;
   font: normal normal medium 18px/21px Poppins;
   width: 156px;
   height: 48px;
@@ -163,7 +166,7 @@ button {
 
 .container-consult {
   height: 150px;
-  background-color: #4b6e83cc;
+  background-color: #4c89a1;
 }
 .container-consult button {
   margin-top: 55px;
@@ -177,7 +180,7 @@ button {
   border-radius: 10px;
   cursor: pointer;
   padding: 8px 10px;
-  border: 2px solid #00ffc8cc;
+  border: 2px solid #32bff7;
   box-shadow: none;
   position: relative;
 }

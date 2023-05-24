@@ -40,7 +40,7 @@ export const Home = () => {
       </div>
 
       <div className="container-consult">
-        <button>Request Consultation</button>
+        <button onClick={() => navigate("/ContactUs")}>Request Consultation</button>
       </div>
 
       <div className="container-2">

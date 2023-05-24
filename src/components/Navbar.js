@@ -1,8 +1,10 @@
 import React, { useRef } from "react";
 import { FaBars, FaTimes, FaReact } from "react-icons/fa";
 import "./styles/navbar.css";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+  const navigate = useNavigate();
   /* creates a reference to the nav element in the component. 
     useRef hook is used to create a reference to the element so that it can be accessed and manipulated in the component.*/
 
@@ -23,8 +25,8 @@ function Navbar() {
       <nav ref={navRef}>
         <a href="/#">HOME</a>
         <a href="/#">ABOUT US</a>
-        <a href="/#">PRODUCTS & SOLUTIONS</a>
-        <a href="/#">CONTACT US</a>
+        <a onClick={() => navigate("ProductsnSolutions")}>PRODUCTS & SOLUTIONS</a>
+        <a onClick={() => navigate("ContactUs")}>CONTACT US</a>
         {/* Renders a button with the class of nav-btn nav-close-btn and an FaTimes icon inside */}
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />

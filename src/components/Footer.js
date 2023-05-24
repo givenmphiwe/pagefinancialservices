@@ -24,7 +24,7 @@ function Footer() {
       </div>
 
       <div className="col">
-        <h3>Office</h3>
+        <h3>Office Address</h3>
         <p>325 Rivonia Boulevard,</p>
         <p>Edenburg, Sandton</p>
         <p className="email-id">
@@ -35,20 +35,21 @@ function Footer() {
         </h4>
       </div>
       <div className="col">
-        <h3>Link</h3>
+        <h3></h3>
         <ul>
+        <li className="link-s">
+            <a onClick={() => navigate("/")}>HOME</a>
+          </li>
           <li className="link-s">
-            <a onClick={() => navigate("Service")}>WHAT WE DO</a>
+            <a onClick={() => navigate("Service")}>ABOUT US</a>
           </li>
           <li className="link-s">
             <a onClick={() => navigate("About")}>PRODUCTS & SOLUTIONS</a>
           </li>
           <li className="link-s">
-            <a onClick={() => navigate("Training")}>CONSULT</a>
+            <a onClick={() => navigate("/ContactUs")}>CONSULT</a>
           </li>
-          <li className="link-s">
-            <a onClick={() => navigate("Contact")}>CONTACT US</a>
-          </li>
+          
         </ul>
       </div>
       <div className="col">
