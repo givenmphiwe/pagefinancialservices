@@ -1,12 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import "./styles/home.css";
 import LandingImg from "../assets/Landing-Img.jpg";
-import Services from "../assets/Services.jpg"
+import Services from "../assets/Services.jpg";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+
 
 export const Home = () => {
   const navigate = useNavigate();
+  const ref = useRef();
 
   return (
     <>
@@ -26,19 +30,87 @@ export const Home = () => {
       <div className="container-1">
         <h3>Who we are and what we do</h3>
         <p>
-          Page financial services is a leading tech driven sufficireneojoiejcewd fneof fwooief fewfikewnmf
-          eofjeeowi weifjowc coew
-          ewfejweej9efwf
-          wefwefewf oewjfioew jewkfnef jefnwkkjfnew efnewfufehu wejfdbkjewjfb jefkbewb efjk
-           fewfikrewnmf wefei ewfiewufh fewfhie fjewfbueifiwfvewoc edjbcewiu efubuewfge
-          ewfrrr
+          Page financial services is a leading tech driven sufficireneojoiejcewd
+          fneof fwooief fewfikewnmf eofjeeowi weifjowc coew ewfejweej9efwf
+          wefwefewf oewjfioew jewkfnef jefnwkkjfnew efnewfufehu wejfdbkjewjfb
+          jefkbewb efjk fewfikrewnmf wefei ewfiewufh fewfhie fjewfbueifiwfvewoc
+          edjbcewiu efubuewfge ewfrrr
         </p>
-        <img src={Services} alt="PFS.png"/>
+        <img src={Services} alt="PFS.png" />
       </div>
 
       <div className="container-consult">
-        <button>Request consultation</button>
+        <button>Request Consultation</button>
       </div>
+
+      <div className="container-2">
+        <h3></h3>
+        <div className="card">
+          <div className="imgbox">
+            <img src={LandingImg} alt="Png.png" />
+          </div>
+          <div className="content">
+            <h2>Card one</h2>
+            <p>
+              Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
+              eiusmod tempor incs ds dsfiewf wef e wf fewfikewnmfefw
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="imgbox">
+            <img src={LandingImg} alt="Png.png" />
+          </div>
+          <div className="content">
+            <h2>Card Two</h2>
+            <p>
+              Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
+              eiusmod tempor incs ds dsfiewf wef e wf fewfikewnmfefw
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="imgbox">
+            <img src={LandingImg} alt="Png.png" />
+          </div>
+          <div className="content">
+            <h2>Card Three</h2>
+            <p>
+              Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
+              eiusmod tempor incs ds dsfiewf wef e wf fewfikewnmfefw
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="imgbox">
+            <img src={LandingImg} alt="Png.png" />
+          </div>
+          <div className="content">
+            <h2>Card Three</h2>
+            <p>
+              Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
+              eiusmod tempor incs ds dsfiewf wef e wf fewfikewnmfefw
+            </p>
+          </div>
+        </div>
+        <div className="card">
+          <div className="imgbox">
+            <img src={LandingImg} alt="Png.png" />
+          </div>
+          <div className="content">
+            <h2>Card Three</h2>
+            <p>
+              Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
+              eiusmod tempor incs ds dsfiewf wef e wf fewfikewnmfefw
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <Footer/>
     </>
   );
 };
