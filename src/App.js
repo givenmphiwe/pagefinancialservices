@@ -8,12 +8,14 @@ import { Home } from "./components/Home";
 import ScrollToTop from "./ScrollToTop";
 import { ContactUs } from "./components/ContactUs";
 import {ProductsnSolutions} from "./components/ProductsnSolutions"
+import { About } from "./components/About";
 
 const App = () => {
   let routes = useRoutes([
     { path: "/", element: <Home /> },
     { path: "/ContactUs", element: <ContactUs />},
-    { path: "/ProductsnSolutions", element: <ProductsnSolutions />}
+    { path: "/ProductsnSolutions", element: <ProductsnSolutions />},
+    { path: "/About", element: <About />}
     
   ]);
   return routes;

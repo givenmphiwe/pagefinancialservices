@@ -41,7 +41,7 @@ function Footer() {
             <a onClick={() => navigate("/")}>HOME</a>
           </li>
           <li className="link-s">
-            <a onClick={() => navigate("Service")}>ABOUT US</a>
+            <a onClick={() => navigate("/About")}>ABOUT US</a>
           </li>
           <li className="link-s">
             <a onClick={() => navigate("/ProductsnSolutions")}>PRODUCTS & SOLUTIONS</a>
@@ -85,7 +85,7 @@ function Footer() {
     <hr />
     <p className="copyright">
       Page Financial Services &copy; 2023 - All Rights Reserved | Designed by{" "}
-      <a href="">Page Financial Services</a>
+      <a className="pgefinancial" href="">Page Financial Services</a>
     </p>
   </footer>
     )

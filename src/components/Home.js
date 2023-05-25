@@ -24,7 +24,7 @@ export const Home = () => {
           in all aspects <br />
         </p>
 
-        <button className="btn-in-touch">Get in touch</button>
+        <button onClick={() => navigate("/ContactUs")} className="btn-in-touch">Get in touch</button>
       </div>
 
       <div className="container-1">
@@ -77,6 +77,7 @@ export const Home = () => {
           </div>
           <div className="content">
             <h2>Card Three</h2>
+            
             <p>
               Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
               eiusmod tempor incs ds dsfiewf wef e wf fewfikewnmfefw

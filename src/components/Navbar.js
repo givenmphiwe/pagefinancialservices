@@ -24,7 +24,7 @@ function Navbar() {
       {/* Sets the navRef as a reference to the nav element */}
       <nav ref={navRef}>
         <a onClick={() => navigate("/")}>HOME</a>
-        <a href="/#">ABOUT US</a>
+        <a onClick={() => navigate("/About")}>ABOUT US</a>
         <a onClick={() => navigate("/ProductsnSolutions")}>PRODUCTS & SOLUTIONS</a>
         <a onClick={() => navigate("/ContactUs")}>CONTACT US</a>
         {/* Renders a button with the class of nav-btn nav-close-btn and an FaTimes icon inside */}
