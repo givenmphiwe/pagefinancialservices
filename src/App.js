@@ -9,13 +9,17 @@ import ScrollToTop from "./ScrollToTop";
 import { ContactUs } from "./components/ContactUs";
 import {ProductsnSolutions} from "./components/ProductsnSolutions"
 import { About } from "./components/About";
+import { Webdev } from "./components/WebDev";
+import { Marketing } from "./components/Marketing";
 
 const App = () => {
   let routes = useRoutes([
     { path: "/", element: <Home /> },
     { path: "/ContactUs", element: <ContactUs />},
     { path: "/ProductsnSolutions", element: <ProductsnSolutions />},
-    { path: "/About", element: <About />}
+    { path: "/About", element: <About />},
+    { path: "/WebDev", element: <Webdev />},
+    { path: "/Marketing", element: <Marketing/>}
     
   ]);
   return routes;

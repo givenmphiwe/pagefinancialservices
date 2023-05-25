@@ -167,6 +167,7 @@ button {
 .container-consult {
   height: 150px;
   background-color: #4c89a1;
+  margin-bottom: 30px;
 }
 .container-consult button {
   margin-top: 55px;
@@ -184,6 +185,8 @@ button {
   box-shadow: none;
   position: relative;
 }
+
+
 
 /*Container 3*/
 .container-2 {

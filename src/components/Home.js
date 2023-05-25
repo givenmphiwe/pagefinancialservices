@@ -50,33 +50,6 @@ export const Home = () => {
             <img src={LandingImg} alt="Png.png" />
           </div>
           <div className="content">
-            <h2>Card one</h2>
-            <p>
-              Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
-              eiusmod tempor incs ds dsfiewf wef e wf fewfikewnmfefw
-            </p>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="imgbox">
-            <img src={LandingImg} alt="Png.png" />
-          </div>
-          <div className="content">
-            <h2>Card Two</h2>
-            <p>
-              Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
-              eiusmod tempor incs ds dsfiewf wef e wf fewfikewnmfefw
-            </p>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="imgbox">
-            <img src={LandingImg} alt="Png.png" />
-          </div>
-          <div className="content">
-            <h2>Card Three</h2>
             
             <p>
               Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
@@ -90,7 +63,34 @@ export const Home = () => {
             <img src={LandingImg} alt="Png.png" />
           </div>
           <div className="content">
-            <h2>Card Three</h2>
+          
+            <p>
+              Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
+              eiusmod tempor incs ds dsfiewf wef e wf fewfikewnmfefw
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="imgbox">
+            <img src={LandingImg} alt="Png.png" />
+          </div>
+          <div className="content">
+            
+            
+            <p>
+              Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
+              eiusmod tempor incs ds dsfiewf wef e wf fewfikewnmfefw
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="imgbox">
+            <img src={LandingImg} alt="Png.png" />
+          </div>
+          <div className="content">
+            
             <p>
               Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
               eiusmod tempor incs ds dsfiewf wef e wf fewfikewnmfefw
@@ -102,7 +102,7 @@ export const Home = () => {
             <img src={LandingImg} alt="Png.png" />
           </div>
           <div className="content">
-            <h2>Card Three</h2>
+            
             <p>
               Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
               eiusmod tempor incs ds dsfiewf wef e wf fewfikewnmfefw

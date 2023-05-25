@@ -1,0 +1,27 @@
+.container-consult-1 {
+    height: 150px;
+    background-color: #fff;
+    margin-bottom: 30px;
+  }
+  .container-consult-1 button {
+    margin-top: 55px;
+    margin-left: 45%;
+    color: #fff;
+    background: #2667814d 0% 0% no-repeat padding-box;
+    font: normal normal medium 18px/21px Poppins;
+    width: 250px;
+    height: 68px;
+    opacity: 1;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 8px 10px;
+    border: 2px solid #32bff7;
+    box-shadow: none;
+    position: relative;
+  }
+  @media (max-width: 768px) {
+    .container-consult-1 button {
+        margin-top: 55px;
+        margin-left: 25%;
+      }
+  }
