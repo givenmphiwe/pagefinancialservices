@@ -7,7 +7,6 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
-
 export const Home = () => {
   const navigate = useNavigate();
   const ref = useRef();
@@ -24,23 +23,26 @@ export const Home = () => {
           in all aspects <br />
         </p>
 
-        <button onClick={() => navigate("/ContactUs")} className="btn-in-touch">Get in touch</button>
+        <button onClick={() => navigate("/ContactUs")} className="btn-in-touch">
+          Get in Touch
+        </button>
       </div>
 
       <div className="container-1">
         <h3>Who we are and what we do</h3>
         <p>
-          Page financial services is a leading tech driven sufficireneojoiejcewd
-          fneof fwooief fewfikewnmf eofjeeowi weifjowc coew ewfejweej9efwf
-          wefwefewf oewjfioew jewkfnef jefnwkkjfnew efnewfufehu wejfdbkjewjfb
-          jefkbewb efjk fewfikrewnmf wefei ewfiewufh fewfhie fjewfbueifiwfvewoc
-          edjbcewiu efubuewfge ewfrrr
+          Page financial services is a leading tech driven company, Our mindset of always
+          aiming high at achieving what hasn't been done before without fail
+          through pragmatic but fresh mindsets combined with dynamic staff
+          members who operate not just as employees but partners too
         </p>
         <img src={Services} alt="PFS.png" />
       </div>
 
       <div className="container-consult">
-        <button onClick={() => navigate("/ContactUs")}>Request Consultation</button>
+        <button onClick={() => navigate("/ContactUs")}>
+          Request Consultation
+        </button>
       </div>
 
       <div className="container-2">
@@ -50,7 +52,6 @@ export const Home = () => {
             <img src={LandingImg} alt="Png.png" />
           </div>
           <div className="content">
-            
             <p>
               Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
               eiusmod tempor incs ds dsfiewf wef e wf fewfikewnmfefw
@@ -63,7 +64,6 @@ export const Home = () => {
             <img src={LandingImg} alt="Png.png" />
           </div>
           <div className="content">
-          
             <p>
               Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
               eiusmod tempor incs ds dsfiewf wef e wf fewfikewnmfefw
@@ -76,8 +76,6 @@ export const Home = () => {
             <img src={LandingImg} alt="Png.png" />
           </div>
           <div className="content">
-            
-            
             <p>
               Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
               eiusmod tempor incs ds dsfiewf wef e wf fewfikewnmfefw
@@ -90,7 +88,6 @@ export const Home = () => {
             <img src={LandingImg} alt="Png.png" />
           </div>
           <div className="content">
-            
             <p>
               Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
               eiusmod tempor incs ds dsfiewf wef e wf fewfikewnmfefw
@@ -102,7 +99,6 @@ export const Home = () => {
             <img src={LandingImg} alt="Png.png" />
           </div>
           <div className="content">
-            
             <p>
               Lorem ipsum do sit amet, consectetur adipisicingg elit, sed do
               eiusmod tempor incs ds dsfiewf wef e wf fewfikewnmfefw
@@ -111,7 +107,7 @@ export const Home = () => {
         </div>
       </div>
 
-      <Footer/>
+      <Footer />
     </>
   );
 };

@@ -12,9 +12,10 @@ export const Marketing = () => {
       <div className="container-1">
         <h3>Marketing</h3>
         <p>
-          We have the team of software developers and web designers,Who are
-          always motivated to produce quality software which is maintainable,We
-          prode ourselves with the great softwares we have developed so far
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda
+          iste facilis quos impedit fuga nobis modi debitis laboriosam velit
+          reiciendis quisquam alias corporis, maxime enim, optio ab dolorum
+          sequi qui.
         </p>
         <img src={taxImg} alt="tax.png" />
       </div>

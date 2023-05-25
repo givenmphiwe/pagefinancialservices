@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import "./styles/Contact-us.css";
 import contactbckg from "../assets/contact-png.png";
 import Footer from "./Footer";
-import { FaClock, FaEnvelope } from "react-icons/fa";
+import { FaClock, FaEnvelope, FaLocationArrow } from "react-icons/fa";
 
 export const ContactUs = () => {
   const navigate = useNavigate();
@@ -19,26 +19,36 @@ export const ContactUs = () => {
             <div></div>
           </div>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda
-            iste facilis quos impedit fuga nobis modi debitis laboriosam velit
-            reiciendis quisquam alias corporis, maxime enim, optio ab dolorum
-            sequi qui.
+            We believe that digital transformation has the power to change our
+            country, our continent and our world for the better. That is why we
+            are constantly driven to innovate and to maintain only the highest
+            level of quality in everything we do and everything we provide.
+            Because without quality, there can be no greatness!
           </p>
         </div>
 
         <div class="contact-body">
           <div class="contact-info">
-          
             <div>
               <span>
-                <FaClock/>
+                <FaLocationArrow />
+              </span>
+              <span>Office</span>
+              <span class="text">
+                {" "}
+                325 Rivonia Boulevard, Edenburg, Sandton
+              </span>
+            </div>
+            <div>
+              <span>
+                <FaClock />
               </span>
               <span>Opening Hours</span>
               <span class="text">Monday - Friday (9:00 AM to 5:00 PM)</span>
             </div>
             <div>
               <span>
-                <FaEnvelope/>
+                <FaEnvelope />
               </span>
               <span>Email Address</span>
               <span class="text"> info@PageFinancialServices.com</span>
@@ -62,13 +72,24 @@ export const ContactUs = () => {
                 />
               </div>
               <div>
-                <input type="email" class="form-control" placeholder="E-mail" required/>
-                <input type="text" class="form-control" placeholder="Phone" required/>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="E-mail"
+                  required
+                />
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="Phone"
+                  required
+                />
               </div>
               <textarea
                 rows="5"
                 placeholder="Message"
-                class="form-control" required
+                class="form-control"
+                required
               ></textarea>
               <input type="submit" class="send-btn" value="send message" />
             </form>
