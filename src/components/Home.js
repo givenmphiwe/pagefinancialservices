@@ -1,15 +1,15 @@
-import React, { useState, useRef } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./styles/home.css";
 import LandingImg from "../assets/Landing-Img.jpg";
 import Services from "../assets/Services.jpg";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+
 
 export const Home = () => {
   const navigate = useNavigate();
-  const ref = useRef();
+  
 
   return (
     <>
