@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import "./styles/Contact-us.css";
 import contactbckg from "../assets/contact-png.png";
 import Footer from "./Footer";
-import { FaClock } from "react-icons/fa";
+import { FaClock, FaEnvelope } from "react-icons/fa";
 
 export const ContactUs = () => {
   const navigate = useNavigate();
@@ -35,6 +35,13 @@ export const ContactUs = () => {
               </span>
               <span>Opening Hours</span>
               <span class="text">Monday - Friday (9:00 AM to 5:00 PM)</span>
+            </div>
+            <div>
+              <span>
+                <FaEnvelope/>
+              </span>
+              <span>Email Address</span>
+              <span class="text"> info@PageFinancialServices.com</span>
             </div>
           </div>
 
