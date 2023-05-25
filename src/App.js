@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Home } from "./components/Home";
 import ScrollToTop from "./ScrollToTop";
 import { ContactUs } from "./components/ContactUs";
-import ProductsnSolutions from "./components/ProductsnSolutions"
+import {ProductsnSolutions} from "./components/ProductsnSolutions"
 
 const App = () => {
   let routes = useRoutes([

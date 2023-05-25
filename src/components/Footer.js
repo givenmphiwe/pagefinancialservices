@@ -44,7 +44,7 @@ function Footer() {
             <a onClick={() => navigate("Service")}>ABOUT US</a>
           </li>
           <li className="link-s">
-            <a onClick={() => navigate("About")}>PRODUCTS & SOLUTIONS</a>
+            <a onClick={() => navigate("/ProductsnSolutions")}>PRODUCTS & SOLUTIONS</a>
           </li>
           <li className="link-s">
             <a onClick={() => navigate("/ContactUs")}>CONSULT</a>

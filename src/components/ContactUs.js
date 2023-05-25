@@ -45,21 +45,23 @@ export const ContactUs = () => {
                   type="text"
                   class="form-control"
                   placeholder="First Name"
+                  required
                 />
                 <input
                   type="text"
                   class="form-control"
                   placeholder="Last Name"
+                  required
                 />
               </div>
               <div>
-                <input type="email" class="form-control" placeholder="E-mail" />
-                <input type="text" class="form-control" placeholder="Phone" />
+                <input type="email" class="form-control" placeholder="E-mail" required/>
+                <input type="text" class="form-control" placeholder="Phone" required/>
               </div>
               <textarea
                 rows="5"
                 placeholder="Message"
-                class="form-control"
+                class="form-control" required
               ></textarea>
               <input type="submit" class="send-btn" value="send message" />
             </form>
