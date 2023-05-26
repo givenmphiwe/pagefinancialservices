@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { FaBars, FaTimes, FaReact } from "react-icons/fa";
 import "./styles/navbar.css";
 import { useNavigate } from "react-router-dom";
+import iconImg from "../assets/Page icon.png"
 
 function Navbar() {
   const navigate = useNavigate();
@@ -20,7 +21,7 @@ function Navbar() {
   return (
     <div className="container">
       {/* Renders a react icon with the size of 40px */}
-      <FaReact size={40} />
+      <img src={iconImg} className="imgIcon" />
       {/* Sets the navRef as a reference to the nav element */}
       <nav ref={navRef}>
         <a onClick={() => navigate("/")}>HOME</a>

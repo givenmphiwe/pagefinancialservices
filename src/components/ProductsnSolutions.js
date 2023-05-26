@@ -53,9 +53,10 @@ export const ProductsnSolutions = () => {
                 <FaRegNewspaper className="i" />
                 <h3>Accounting & Bookkeeping</h3>
                 <p>
-                  Lorem iefnoewijnf wefweiofnieof fewfneof ciwejof cjewcnpe
-                  cieoifwojjcew efejoewjfwoefjenefopewfp cewinof evchehoe
-                  saoadnowqe ewfiewofjfreww wv
+                  The purpose of bookkeeping is to maintain a systematic record
+                  of financial activities and transactions chronologically. The
+                  purpose of accounting is to report the financial strength and
+                  obtain the results of the operating activity of a business
                 </p>
                 <a>Learn more</a>
               </div>
@@ -66,9 +67,10 @@ export const ProductsnSolutions = () => {
                 <FaChartLine className="i" />
                 <h3>Payroll Services</h3>
                 <p>
-                  Lorem iefnoewijnf wefweiofnieof fewfneof ciwejof cjewcnpe
-                  cieoifwojjcew efejoewjfwoefjenefopewfp cewinof evchehoe
-                  saoadnowqe ewfiewofjfreww wv
+                  In South Africa, there is no set payroll cycle. The payroll
+                  cycle is typically stipulated in the employment contract,
+                  which is to be agreed upon by the employee and employer. The
+                  payroll cycle can run monthly, weekly, or bi-weekly.
                 </p>
                 <a>Learn more</a>
               </div>
@@ -79,9 +81,11 @@ export const ProductsnSolutions = () => {
                 <FaCode className="i" />
                 <h3>Web Development</h3>
                 <p>
-                  Lorem iefnoewijnf wefweiofnieof fewfneof ciwejof cjewcnpe
-                  cieoifwojjcew efejoewjfwoefjenefopewfp cewinof evchehoe
-                  saoadnowqe ewfiewofjfreww wv
+                  A more comprehensive list of tasks to which Web development
+                  commonly refers, may include Web engineering, Web design, Web
+                  content development, client liaison, client-side/server-side
+                  scripting, Web server and network security configuration, and
+                  e-commerce development.
                 </p>
                 <a>Learn more</a>
               </div>
@@ -129,9 +133,10 @@ export const ProductsnSolutions = () => {
                 <FaBuilding className="i" />
                 <h3>Business plan & Consulting</h3>
                 <p>
-                  Lorem iefnoewijnf wefweiofnieof fewfneof ciwejof cjewcnpe
-                  cieoifwojjcew efejoewjfwoefjenefopewfp cewinof evchehoe
-                  saoadnowqe ewfiewofjfreww wv
+                  Company's objectives and how it plans to achieve its goals. A
+                  business plan lays out a written road map for the firm from
+                  marketing, financial, and operational standpoints. Both
+                  startups and established companies use business plans.
                 </p>
                 <a>Learn more</a>
               </div>
@@ -147,9 +152,10 @@ export const ProductsnSolutions = () => {
                 <FaShare className="i" />
                 <h3>Shareholder Certificates</h3>
                 <p>
-                  Lorem iefnoewijnf wefweiofnieof fewfneof ciwejof cjewcnpe
-                  cieoifwojjcew efejoewjfwoefjenefopewfp cewinof evchehoe
-                  saoadnowqe ewfiewofjfreww wv
+                  Share certificates are documents issued by companies that sell
+                  shares in the market. A shareholder receives a share
+                  certificate as a receipt of his or her purchase and to reflect
+                  ownership of a specified number of shares of the company.
                 </p>
                 <a>Learn more</a>
               </div>
@@ -160,9 +166,10 @@ export const ProductsnSolutions = () => {
                 <FaAddressBook className="i" />
                 <h3>Company Profiles,Branding, Logo</h3>
                 <p>
-                  Lorem iefnoewijnf wefweiofnieof fewfneof ciwejof cjewcnpe
-                  cieoifwojjcew efejoewjfwoefjenefopewfp cewinof evchehoe
-                  saoadnowqe ewfiewofjfreww wv
+                  A company profile document is a key asset to advertising who
+                  your company is and what your services are. It is also a vital
+                  asset to your business that can help you stand out from the
+                  competition.
                 </p>
                 <a>Learn more</a>
               </div>
@@ -173,9 +180,10 @@ export const ProductsnSolutions = () => {
                 <FaGraduationCap className="i" />
                 <h3>Letter of Good Standing</h3>
                 <p>
-                  Lorem iefnoewijnf wefweiofnieof fewfneof ciwejof cjewcnpe
-                  cieoifwojjcew efejoewjfwoefjenefopewfp cewinof evchehoe
-                  saoadnowqe ewfiewofjfreww wv
+                  Letter of Good Standing is essentially an official document
+                  that proves the Workman's Compensation Fund (COID) will assist
+                  you in paying for any work-related injuries or harm to your
+                  employees, because your payments to the fund are up to date.
                 </p>
                 <a>Learn more</a>
               </div>
