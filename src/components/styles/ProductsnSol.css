@@ -12,12 +12,36 @@
 }
 .services{
     
-    width: 1300px;
+    width: 1600px;
     padding: 100px 60px;
     margin: auto;
 }
 
+.services-1{
+    width: 1600px;
+    padding: 100px 60px;
+    margin: auto;
+}
 .services h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 60px;
+    padding-bottom: 15px;
+}
+
+.services-1 h1::after{
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 3px;
+    background-color: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.services-1 h1{
     font-size: 50px;
     text-align: center;
     font-weight: 500;
@@ -40,6 +64,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .card {
     width: calc(34% - 20px);
@@ -83,6 +108,9 @@
     
         width: 100%;
         
+    }
+    .services-1{
+        width: 100%;
     }
     .content{
         flex-direction: column;

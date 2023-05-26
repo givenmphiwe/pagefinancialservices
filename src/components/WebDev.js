@@ -16,13 +16,13 @@ export const Webdev = () => {
           We have the team of software developers and web designers,Who are
           always motivated to produce quality software which is maintainable,We
           proud ourselves with the great quality software we have developed.
-          <br/>
-          <br/>
+          <br />
+          <br />
           <b>Page financial services</b> will be at your service not from
           developing/building Software. We go all out for our Clients from
-          hosting the website to providing your web with business email, We 
-          don't stop there once you are with us you are family, we gonna be your 
-          support and always make sure your website works very even after being 
+          hosting the website to providing your web with business email, We
+          don't stop there once you are with us you are family, we gonna be your
+          support and always make sure your website works very even after being
           developed
         </p>
         <img src={webImg} alt="wb-dev.png" />
