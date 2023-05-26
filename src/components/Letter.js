@@ -12,10 +12,17 @@ export const Letter = () => {
       <div className="container-1">
         <h3>Letter of Good Standing</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda
-          iste facilis quos impedit fuga nobis modi debitis laboriosam velit
-          reiciendis quisquam alias corporis, maxime enim, optio ab dolorum
-          sequi qui.
+          All companies should ensure a valid letter of good standing is on file
+          at all times. A letter of good standing will be issued by the
+          Compensation Commissioner provided there is no funds owing to the
+          commission and all return of earnings (ROE) returns have been filed
+        </p>
+        <p>
+          <b>Documentary/Info requirements</b><br/>
+          Company registration certificate (CoR14.3 or CK1) <br/>
+          Copy of previous ROE assessment (where applicable) <br/> 
+          Payroll declaration (prior year actuals + current year provision) <br/>
+          Cost = R950.00 (3 working days)
         </p>
         <img src={pageFinancial} alt="tax.png" />
       </div>

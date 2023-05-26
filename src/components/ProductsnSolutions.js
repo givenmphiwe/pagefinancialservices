@@ -161,7 +161,7 @@ export const ProductsnSolutions = () => {
               </div>
             </div>
 
-            <div onClick={() => navigate("/Marketing")} className="card">
+            <div onClick={() => navigate("/Companies")} className="card">
               <div className="box">
                 <FaAddressBook className="i" />
                 <h3>Company Profiles,Branding, Logo</h3>

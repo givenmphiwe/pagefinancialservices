@@ -12,10 +12,11 @@ export const Share = () => {
       <div className="container-1">
         <h3>Shareholder Certificates</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda
-          iste facilis quos impedit fuga nobis modi debitis laboriosam velit
-          reiciendis quisquam alias corporis, maxime enim, optio ab dolorum
-          sequi qui.
+          Director changes are required to be lodged with CIPC to ensure that
+          their records are up to date. Shareholder changes are the
+          responsibility of the Directors and are NOT required to be lodged with
+          CIPC. We offer both services and can do them simultaneously. The
+          Directors run the company and Shareholders own the company.
         </p>
         <img src={pageFinancial} alt="tax.png" />
       </div>

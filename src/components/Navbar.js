@@ -21,7 +21,7 @@ function Navbar() {
   return (
     <div className="container">
       {/* Renders a react icon with the size of 40px */}
-      <img src={iconImg} className="imgIcon" />
+      <img onClick={() => navigate("/")} src={iconImg} className="imgIcon" />
       {/* Sets the navRef as a reference to the nav element */}
       <nav ref={navRef}>
         <a onClick={() => navigate("/")}>HOME</a>

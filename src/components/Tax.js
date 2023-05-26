@@ -12,10 +12,13 @@ export const Tax = () => {
       <div className="container-1">
         <h3>Tax & vat Registration</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda
-          iste facilis quos impedit fuga nobis modi debitis laboriosam velit
-          reiciendis quisquam alias corporis, maxime enim, optio ab dolorum
-          sequi qui.
+          Submitting your tax return is not enough. We submit and do a
+          professional tax structuring and financial need analysis for you. With
+          this holistic approach, we can reduce your tax burden and ensure you
+          utilise all your tax benefits. This also allows us to save you money
+          on your insurance, taxes and give you peace of mind that your
+          financial needs are addressed when planned or unexpected life events
+          occur.
         </p>
         <img src={pageFinancial} alt="tax.png" />
       </div>

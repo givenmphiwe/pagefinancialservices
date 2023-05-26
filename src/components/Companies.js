@@ -12,10 +12,14 @@ export const Companies = () => {
       <div className="container-1">
         <h3>Company Profiles, Branding, Logo</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda
-          iste facilis quos impedit fuga nobis modi debitis laboriosam velit
-          reiciendis quisquam alias corporis, maxime enim, optio ab dolorum
-          sequi qui.
+          Next to your logo and company stationary, your company profile design
+          is vitally important. This document needs to put it's best foot
+          forward in representing your brand as it serves two purposes: This
+          document introduces your company and services/products to potential
+          clients. It serves as a reference for employees on company and product
+          knowledge. Your company profile doesn't have to look dull! With
+          imaginative use of colour, infographics and interesting fonts, we will
+          transform your company profile into an interesting read.
         </p>
         <img src={pageFinancial} alt="tax.png" />
       </div>
