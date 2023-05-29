@@ -11,6 +11,7 @@ export const About = () => {
       <Navbar />
       <div class="about">
         <div class="inner-section">
+          
           <h1>About Us</h1>
           <p class="text-1">
             <b>Page Financial Services</b> company with a “service excellence”
