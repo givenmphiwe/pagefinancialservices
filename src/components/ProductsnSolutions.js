@@ -19,8 +19,7 @@ import {
   FaPercentage,
   FaRegNewspaper,
   FaShare,
-  FaSpeakap,
-  FaSpeakerDeck,
+  
 } from "react-icons/fa";
 
 export const ProductsnSolutions = () => {
