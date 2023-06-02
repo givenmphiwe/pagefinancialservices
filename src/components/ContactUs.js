@@ -85,7 +85,7 @@ export const ContactUs = () => {
               </div>
               <textarea
                 rows="5"
-                placeholder="Message"
+                placeholder="Message*"
                 class="form-control"
                 required
               ></textarea>
