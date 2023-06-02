@@ -51,7 +51,7 @@ export const ContactUs = () => {
                 <FaEnvelope />
               </span>
               <span>Email Address</span>
-              <span class="text"> info@PageFinancialServices.com</span>
+              <span class="text"> info@pagefinancial.com</span>
             </div>
           </div>
 
