@@ -1,11 +1,11 @@
-import { useNavigate } from "react-router-dom";
+
 import "./styles/Contact-us.css";
 import contactbckg from "../assets/contact-png.png";
 import Footer from "./Footer";
 import { FaClock, FaEnvelope, FaLocationArrow } from "react-icons/fa";
 
 export const ContactUs = () => {
-  const navigate = useNavigate();
+  
 
   return (
     <>

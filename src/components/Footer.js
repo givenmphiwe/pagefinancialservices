@@ -7,7 +7,6 @@ import {
     FaPhone,
     FaTwitter,
   } from "react-icons/fa";
-  import { FaWhatsapp } from "react-icons/fa";
   import { useNavigate } from "react-router-dom";
 
 
