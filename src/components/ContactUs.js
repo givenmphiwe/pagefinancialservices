@@ -116,7 +116,7 @@ export const ContactUs = () => {
                 <span class="checkmark"></span>
               </label>
               <label class="containersss">
-                Tax and vat Registration
+                Tax and Vat Registration
                 <input type="checkbox" />
                 <span class="checkmark"></span>
               </label>
