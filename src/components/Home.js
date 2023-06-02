@@ -5,7 +5,6 @@ import LandingImg from "../assets/Landing-Img.jpg";
 import Services from "../assets/Services.jpg";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import accounting from "../assets/accounting_.jpg";
 import bookkeeping from "../assets/Bookkeeping.jpg";
 import payroll from "../assets/Payroll.jpg";
 import incometax from "../assets/incomeTax_.jpg";
