@@ -111,7 +111,7 @@ export const ContactUs = () => {
                 <span class="checkmark"></span>
               </label>
               <label class="containersss">
-                Web development
+                IT Services
                 <input type="checkbox" />
                 <span class="checkmark"></span>
               </label>
