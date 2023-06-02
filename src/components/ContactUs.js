@@ -91,6 +91,29 @@ export const ContactUs = () => {
                 class="form-control"
                 required
               ></textarea>
+              <h2>Which service are you interested in?</h2>
+              <label class="containersss">
+                Accounting & Bookkeeping
+                <input type="checkbox"  />
+                <span class="checkmark"></span>
+              </label>
+
+              <label class="containersss">
+                Payroll
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="containersss">
+                Web development
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="containersss">
+                Tax and vat Registration
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+
               <input type="submit" class="send-btn" value="send message" />
             </form>
 
