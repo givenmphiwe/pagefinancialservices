@@ -76,7 +76,7 @@ function Footer() {
       <hr />
       <p className="copyright">
         Page Financial Services &copy; 2023 - All Rights Reserved | Designed by{" "}
-        <a className="pgefinancial" href="">
+        <a className="pgefinancial" href="#">
           Page Financial Services
         </a>
       </p>
