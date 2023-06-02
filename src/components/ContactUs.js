@@ -125,7 +125,7 @@ export const ContactUs = () => {
             </form>
 
             <div>
-              <img src={contactbckg} alt="" />
+              <img src={contactbckg} alt="bck.png" />
             </div>
           </div>
         </div>
