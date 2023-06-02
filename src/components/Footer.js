@@ -18,7 +18,7 @@ function Footer() {
   <footer className="footer-1">
     <div className="row">
       <div className="col">
-        <img src="" alt="" />
+        
         <h1>Page Financial Services</h1>
       </div>
 
