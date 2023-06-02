@@ -49,7 +49,7 @@ export const ContactUs = () => {
                 <FaEnvelope />
               </span>
               <span>Email Address</span>
-              <span class="text"> info@pagefinancial.com</span>
+              <span class="text"> info@pagefinancials.com</span>
             </div>
           </div>
 
