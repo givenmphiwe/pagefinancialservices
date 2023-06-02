@@ -61,6 +61,8 @@ export const ProductsnSolutions = () => {
               </div>
             </div>
 
+            
+
             <div onClick={() => navigate("/Payroll")} className="card">
               <div className="box">
                 <FaChartLine className="i" />
@@ -145,6 +147,7 @@ export const ProductsnSolutions = () => {
 
         {/*Third section*/}
         <div className="services-1">
+
           <div className="content">
             <div onClick={() => navigate("/Share")} className="card">
               <div className="box">

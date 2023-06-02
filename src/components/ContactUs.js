@@ -61,13 +61,13 @@ export const ContactUs = () => {
                 <input
                   type="text"
                   class="form-control"
-                  placeholder="First Name"
+                  placeholder="First Name*"
                   required
                 />
                 <input
                   type="text"
                   class="form-control"
-                  placeholder="Last Name"
+                  placeholder="Last Name*"
                   required
                 />
               </div>
@@ -75,13 +75,13 @@ export const ContactUs = () => {
                 <input
                   type="email"
                   class="form-control"
-                  placeholder="E-mail"
+                  placeholder="E-mail*"
                   required
                 />
                 <input
                   type="number"
                   class="form-control"
-                  placeholder="Phone"
+                  placeholder="Phone*"
                   required
                 />
               </div>
@@ -92,6 +92,13 @@ export const ContactUs = () => {
                 required
               ></textarea>
               <h2>Which service are you interested in?</h2>
+
+              <label class="containersss">
+                Company Registration
+                <input type="checkbox"  />
+                <span class="checkmark"></span>
+              </label>
+
               <label class="containersss">
                 Accounting & Bookkeeping
                 <input type="checkbox"  />
