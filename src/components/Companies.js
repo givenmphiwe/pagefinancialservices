@@ -21,6 +21,20 @@ export const Companies = () => {
           imaginative use of colour, infographics and interesting fonts, we will
           transform your company profile into an interesting read.
         </p>
+
+        <p>
+          <b>Comapny Registration</b> <br />
+          Page Financial Services offers you
+          the guided assistance of a company registration expert. This expert
+          will offer you step-by-step support in the company registration
+          process and its requirements. Your dedicated expert will submit
+          documents to the authorities, like the CIPC, on your behalf. It’s
+          cost-effective, because you don’t have to waste energy, time or money
+          on trying to figure out the process by yourself. You’re relying on the
+          support of experts who have close relationships with the CIPC, PSIRA,
+          the Labour Department, SARS and COID, because they work with these
+          company administration processes on a daily basis
+        </p>
         <img src={pageFinancial} alt="tax.png" />
       </div>
 
