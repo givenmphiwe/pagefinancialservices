@@ -1,11 +1,9 @@
-
 import "./styles/Contact-us.css";
 import contactbckg from "../assets/contact-png.png";
 import Footer from "./Footer";
 import { FaClock, FaEnvelope, FaLocationArrow } from "react-icons/fa";
 
 export const ContactUs = () => {
-  
 
   return (
     <>
@@ -95,13 +93,13 @@ export const ContactUs = () => {
 
               <label class="containersss">
                 Company Registration
-                <input type="checkbox"  />
+                <input type="checkbox" />
                 <span class="checkmark"></span>
               </label>
 
               <label class="containersss">
                 Accounting & Bookkeeping
-                <input type="checkbox"  />
+                <input type="checkbox" />
                 <span class="checkmark"></span>
               </label>
 
@@ -146,4 +144,3 @@ export const ContactUs = () => {
     </>
   );
 };
-
