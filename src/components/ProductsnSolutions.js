@@ -73,7 +73,7 @@ export const ProductsnSolutions = () => {
             <div onClick={() => navigate("/Webdev")} className="card">
               <div className="box">
                 <FaCode className="i" />
-                <h3>Web Development</h3>
+                <h3>IT Services</h3>
                 <p>
                   A more comprehensive list of tasks to which Web development
                   commonly refers, may include Web engineering, Web design, Web

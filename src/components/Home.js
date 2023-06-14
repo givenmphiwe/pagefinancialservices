@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./styles/home.css";
 import LandingImg from "../assets/Landing-Img.jpg";
-import Services from "../assets/Services.jpg";
+import Services from "../assets/Services.png";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import bookkeeping from "../assets/Bookkeeping.jpg";
@@ -87,7 +87,7 @@ export const Home = () => {
           </div>
           <div onClick={() => navigate("/Webdev")} className="content">
             <p>
-              <h3>Web Development</h3>A more comprehensive list of tasks to
+              <h3>IT Services</h3>A more comprehensive list of tasks to
               which Web development commonly refers, may include Web
               engineering, Web design, Web content development, client liaison,
               client-side/server-side scripting, Web server and network security
