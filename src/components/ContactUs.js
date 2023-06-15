@@ -2,9 +2,31 @@ import "./styles/Contact-us.css";
 import contactbckg from "../assets/contact-png.png";
 import Footer from "./Footer";
 import { FaClock, FaEnvelope, FaLocationArrow } from "react-icons/fa";
+import emailjs from "@emailjs/browser";
+import React, { useRef } from 'react';
+
+
 
 export const ContactUs = () => {
 
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_kw9rb3t", "template_msue9c5", form.current, "2dD7Uf18Hb1ttJUCA")
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+      e.target.reset()
+    
+  }
   return (
     <>
       <section class="contact-section">
@@ -54,17 +76,19 @@ export const ContactUs = () => {
           </div>
 
           <div class="contact-form">
-            <form>
+            <form ref={form} onSubmit={sendEmail} >
               <div>
                 <input
                   type="text"
                   class="form-control"
+                  name="name"
                   placeholder="First Name*"
                   required
                 />
                 <input
                   type="text"
                   class="form-control"
+                  name="lastname"
                   placeholder="Last Name*"
                   required
                 />
@@ -72,12 +96,14 @@ export const ContactUs = () => {
               <div>
                 <input
                   type="email"
+                  name="useremail"
                   class="form-control"
                   placeholder="E-mail*"
                   required
                 />
                 <input
                   type="number"
+                  name="phone"
                   class="form-control"
                   placeholder="Phone*"
                   required
@@ -86,6 +112,7 @@ export const ContactUs = () => {
               <textarea
                 rows="5"
                 placeholder="Message*"
+                name="message"
                 class="form-control"
                 required
               ></textarea>
@@ -93,29 +120,29 @@ export const ContactUs = () => {
 
               <label class="containersss">
                 Company Registration
-                <input type="checkbox" />
+                <input type="checkbox" name="companyRegistration" value="Company Registration"/>
                 <span class="checkmark"></span>
               </label>
 
               <label class="containersss">
                 Accounting & Bookkeeping
-                <input type="checkbox" />
+                <input type="checkbox" name="accounting" value="Accounting & Bookkeeping"/>
                 <span class="checkmark"></span>
               </label>
 
               <label class="containersss">
                 Payroll
-                <input type="checkbox" />
+                <input type="checkbox" name="payroll" value="Payroll"/>
                 <span class="checkmark"></span>
               </label>
               <label class="containersss">
                 IT Services
-                <input type="checkbox" />
+                <input type="checkbox" name="ITservices" value="IT services"/>
                 <span class="checkmark"></span>
               </label>
               <label class="containersss">
                 Tax and Vat Registration
-                <input type="checkbox" />
+                <input type="checkbox" name="Tax" value="Tax & vat Registration"/>
                 <span class="checkmark"></span>
               </label>
 
