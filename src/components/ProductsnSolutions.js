@@ -22,7 +22,9 @@ export const ProductsnSolutions = () => {
     <>
       <Navbar />
       <div class="contact-bg">
-        <h3>Get in Touch with Us</h3>
+        <h3></h3>
+        <br/>
+        <br/>
         <h2>Products & Solutions</h2>
         <div class="line">
           <div></div>
