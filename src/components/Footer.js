@@ -52,16 +52,16 @@ function Footer() {
         <div className="col">
           <h3>Social media</h3>
           <div className="social-icons">
-            <a href="" className="fab">
+            <a href="https://www.facebook.com/pagefinancials.co.za" className="fab">
               <FaFacebook />
             </a>
-            <a href="" className="fab">
+            <a href="https://za.linkedin.com/company/page-financial-services" className="fab">
               <FaLinkedin />
             </a>
-            <a href="" className="fab">
+            <a href="https://www.instagram.com/pagefinancialconsultants/" className="fab">
               <FaInstagram />
             </a>
-            <a href="" className="fab">
+            <a href="https://twitter.com/page_financial?fbclid=IwAR3otOAlrT-WJXUvfCKRl1_1iQuAecS-Nzf6sZFIUQBxWINACStBf0oJmTw" className="fab">
               <FaTwitter />
             </a>
             {/* <a
